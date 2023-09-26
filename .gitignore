@@ -1,0 +1,9 @@
+# Code Editors
+.idea/
+
+# Gradle Files
+gradle/
+.gradle/
+gradlew
+gradlew.bat
+
