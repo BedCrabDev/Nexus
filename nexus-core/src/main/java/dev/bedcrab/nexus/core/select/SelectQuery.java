@@ -16,6 +16,7 @@ public class SelectQuery {
     private final List<MatchPair> rowSelectors = new ArrayList<>();
 
     public SelectQuery(Nexus nexus, ColumnSelector columnSelector) {
+        this.nexus = nexus;
         this.columnSelector = columnSelector;
     }
 
